@@ -1,4 +1,6 @@
-# Kairav Infotech Pvt. Ltd. - WhatsApp Version
+# Kairav Infotech Pvt. Ltd. - WhatsApp Only + Real Company Logo
+
+This version uses the actual Kairav Infotech logo supplied by the owner.
 
 ## Tech Stack
 - HTML5
@@ -9,56 +11,43 @@
 
 ## Structure
 
-kairav-infotech-whatsapp/
+kairav-infotech-logo/
 ├── index.html
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
 ├── assets/
+│   ├── logo.jpeg
 │   └── favicon.svg
 └── README.md
 
-## WhatsApp Integration
+## Logo
 
-The website is now WhatsApp-only for enquiries.
+The supplied company logo is used in:
+- Navigation bar
+- Hero website preview
+- About section
+- Footer
 
-Configured number:
+## WhatsApp
+
+Configured business WhatsApp:
 +91 90593 92653
 
-The following work directly with WhatsApp:
-- Get Started
-- WhatsApp Us
-- Start Your Project
-- Contact WhatsApp button
-- Floating WhatsApp button
-- Contact enquiry form
-
-## How the enquiry form works
-
-1. Customer fills Name, Phone, Email, Service and Requirement.
-2. Customer clicks "Send Enquiry".
-3. Website generates a WhatsApp message.
-4. Customer clicks "Send Enquiry on WhatsApp".
-5. WhatsApp opens with all details pre-filled.
-
-No backend or database is required for this version.
+The website is WhatsApp-only for enquiries. No backend or database is required.
 
 ## Important
 
-If the WhatsApp number changes later, update:
+The logo file is `assets/logo.jpeg`. Keep it in the assets folder.
 
-js/script.js
-
-const WHATSAPP_NUMBER = "919059392653";
-
-Also update the direct WhatsApp links inside index.html.
+If you later get a transparent PNG/SVG version of the logo, replace `logo.jpeg` and update the extension in `index.html`.
 
 ## Before publishing
 
 - Replace demo portfolio projects with real projects.
-- Add the actual Kairav Infotech logo if desired.
-- Confirm business phone number.
-- Add exact business location/address if required.
-- Test on mobile, tablet and desktop.
-- After domain deployment, configure Google Search Console and sitemap.
+- Confirm phone/WhatsApp number.
+- Add exact company location if required.
+- Add real project screenshots.
+- Test mobile, tablet and desktop.
+- Connect the final domain and hosting.
